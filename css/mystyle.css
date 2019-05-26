@@ -3,8 +3,9 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-main.col-md-10, main .col-lg-10 {
+main.col-md-10, main .col-lg-10, main .row {
     padding: 0;
+    margin: 0;
 }
 
 @font-face {
@@ -49,9 +50,34 @@ main.col-md-10, main .col-lg-10 {
     padding-left: 0;
 }
 
-.fullscreen {
+#fullscreen {
     padding: 0;
     height: 100vh;
-
+    color: #ffffff;
 }
+
+
+.imortalreis {
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+}
+
+.imortalreis > img {
+    position: relative;
+    height: 100%;
+}
+
+main > #fullscreen h1 {
+    font-size: 50px;
+}
+
+main > #fullscreen .btn-dark {
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
+    border-radius: 0;
+}
+
+
 
