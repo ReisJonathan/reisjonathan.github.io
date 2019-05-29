@@ -54,6 +54,10 @@ main.col-md-10, main .col-lg-10, main .row {
     padding: 0;
     height: 100vh;
     color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
 }
 
 
