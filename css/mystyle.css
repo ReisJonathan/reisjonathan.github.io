@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    font-family: Roboto, sans-serif;
+  margin: 0;
+  font-family: Roboto, sans-serif;
 }
 
 /*main.col-md-10, main .col-lg-10, main .row {
@@ -9,170 +9,168 @@ body {
 }*/
 
 main {
-    padding: 0 !important;
-    margin: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 @font-face {
-    font-family: Roboto;
-    src: local(Roboto Bold), url(font/Roboto-Bold.ttf) format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: Roboto;
+  src: local(Roboto Bold), url(font/Roboto-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: Roboto;
-    src: local(Roboto Light), url(font/Roboto-Light.ttf) format('truetype');
-    font-weight: lighter;
-    font-style: normal;
+  font-family: Roboto;
+  src: local(Roboto Light), url(font/Roboto-Light.ttf) format("truetype");
+  font-weight: lighter;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: Roboto;
-    src: local(Roboto Regular), url(font/Roboto-Regular.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: Roboto;
+  src: local(Roboto Regular), url(font/Roboto-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    background: #000000;
-    color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #000000;
+  color: #ffffff;
 }
 
 .sidebar .fas.fa-heart {
-    color: #f00;
+  color: #f00;
 }
 
 .sidebar .nav-link {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .nav-link {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 #fullscreen {
-    padding: 0;
-    height: 100vh;
-    color: #ffffff;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
+  padding: 0;
+  height: 100vh;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
 }
 
 main section#fullscreen .row {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
-
 .imortalreis {
-    position: absolute;
-    height: 80%;
-    bottom: 0;
+  position: absolute;
+  height: 80%;
+  bottom: 0;
 }
 
 .imortalreis > img {
-    position: relative;
-    height: 100%;
+  position: relative;
+  height: 100%;
 }
 
 main > #fullscreen h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 main > #fullscreen .btn-dark {
-    color: #fff;
-    background-color: #000;
-    border-color: #fff;
-    border-radius: 0;
+  color: #fff;
+  background-color: #000;
+  border-color: #fff;
+  border-radius: 0;
 }
 
-
 #particles {
-    background-color: #000000; 
-    position: relative;
-    height: 100vh;
+  background-color: #000000;
+  position: relative;
+  height: 100vh;
 }
 
 canvas {
-    display: block;
-    vertical-align: bottom;
+  display: block;
+  vertical-align: bottom;
 }
 
-/* ---- particles.js container ---- */ 
-#particles-js{ 
-    position: absolute; 
-    width: 100%;
-    height: 100%; 
-    background-image: url(""); 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: 50% 50%;
-    z-index: 1;
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 1;
 }
 
 main #particles .contato {
-    position: relative;
+  position: relative;
 }
 
 main #particles .contato .col-contato {
-    z-index: 2;
+  z-index: 2;
 }
 
-main #particles .contato .col-contato form input, main #particles .contato .col-contato form textarea {
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid #fff;
-    border-radius: 0;
-    padding: 0;
-    color: #fff;
+main #particles .contato .col-contato form input,
+main #particles .contato .col-contato form textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  border-radius: 0;
+  padding: 0;
+  color: #fff;
 }
 
-main #particles .contato .col-contato form input::placeholder, main #particles .contato .col-contato form textarea::placeholder {
-    color: rgb(179, 179, 179);
+main #particles .contato .col-contato form input::placeholder,
+main #particles .contato .col-contato form textarea::placeholder {
+  color: rgb(179, 179, 179);
 }
 
-main #particles .contato .col-contato form input:focus, main #particles .contato .col-contato form textarea:focus {
-    box-shadow: none;
+main #particles .contato .col-contato form input:focus,
+main #particles .contato .col-contato form textarea:focus {
+  box-shadow: none;
 }
 
 .container-fluid-custom {
-    width: 95%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  width: 95%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 main section {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 main section:first-child {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.container-fluid-custom .col-md-6, .container-fluid-custom .col-lg-6 {
-    padding-right: 0;
+.container-fluid-custom .col-md-6,
+.container-fluid-custom .col-lg-6 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/*.cards > div:first-child { // primeiro estilo
     padding-left: 0;
 }
 
-/*.cards > div:first-child {
-    padding-left: 0;
-}
-
-.cards > div:last-child {
+.cards > div:last-child { // ultimo estilo
     padding-right: 0;
 }*/
-
-
-
-
